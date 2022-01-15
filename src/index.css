@@ -5,9 +5,12 @@
 }
 body {
   margin: 0px;
+  background-image: url(./react-icon-large.png);
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 200px;
   background-color: rgb(32, 46, 58);
-  background-image: url(./logo.svg);
-  background-position: bottom;
 }
 
 .navbar {
@@ -62,7 +65,11 @@ button {
 .main-content {
   font-size: 20px;
   color: white;
-  padding: 20px 20px;
+  padding: 0px 40px;
+}
+
+.main-content h1 {
+  font-weight: bold;
 }
 
 .other-content {
@@ -70,9 +77,16 @@ button {
   flex-direction: column;
   font-size: 20px;
   color: white;
-  padding: 20px 20px;
+  padding: 0px 40px;
 }
 
+.other-content li {
+  padding-block: 10px;
+}
+
+.other-content ::marker {
+  color: rgb(98, 218, 248);
+}
 /* .footer {
   display: flex;
   flex-direction: row;
