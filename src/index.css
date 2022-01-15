@@ -1,13 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  background-color: rgb(32, 46, 58);
+  background-image: url(./logo.svg);
+  background-position: bottom;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(19, 23, 29);
+  color: aliceblue;
+  padding: 5px 10px;
+  box-shadow: black;
+  margin: 0px 0px;
 }
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.nav-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-icon a {
+  color: rgb(98, 218, 248);
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 8px;
+}
+
+.nav-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 25px;
+  height: 25px;
+  margin: 0px 7px;
+  background-color: blueviolet;
+}
+
+.main-content {
+  font-size: 20px;
+  color: white;
+  padding: 20px 20px;
+}
+
+.other-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: white;
+  padding: 20px 20px;
+}
+
+/* .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgb(2, 20, 43);
+  width: 93%;
+  color: white;
+  padding: 5px 10px;
+  margin: 0px 10px;
+} */
